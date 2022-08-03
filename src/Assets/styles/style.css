@@ -1,0 +1,100 @@
+.app-1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    margin: 20px auto;
+    width: 1300px;
+    justify-content: center;
+}
+
+.mb-3{
+    margin: 3rem !important;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    background-color: teal;
+    align-items: center;
+    color: snow;
+}
+
+header > h1 {
+    font-family: sans-serif;
+    word-spacing: 15px;
+    font-size: 4.5rem !important;
+}
+
+.input-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.input-div > input {
+    margin: 20px;
+    width: 45%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.input-div > input[type="text"]{
+    font-size:24px;
+    padding: 15px;
+}
+
+.custom-img {
+    height: 150px;
+    width: 130%;
+}
+
+.btn-custom{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 0px 360px;
+    justify-content: center;
+}
+
+.btn-custom > button{
+    margin: 0 5px;
+    background-color: teal;
+    font-size: large;
+}
+
+
+.landing-button > div {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../images/pexels-riccardo-41257.jpg);
+    background-size: cover;
+}
+
+.landing-button > div > button {
+    padding: 20px;
+    font-size: large;
+    font-family: system-ui;
+    background-color: teal;
+}
+
+.landing-button > div > a > button {
+    color: #f8f9fa;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.card-body > h5 {
+    font-size: 2rem !important;
+}
+
+.card-body > p {
+    font-size: 1.5rem !important;
+}
+
+
+/* @media only screen () */
